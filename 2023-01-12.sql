@@ -1,0 +1,2 @@
+-- Edit kolom proposalDetail_BuktiACC di tabel tb_proposal_detail dibuat menjadi "null"
+ALTER TABLE `tb_proposal_detail` CHANGE `proposalDetail_BuktiACC` `proposalDetail_BuktiACC` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL;
